@@ -37,6 +37,12 @@ Repositori ini menyimpan berbagai alat bantu konfigurasi dan skrip MikroTik yang
 
 ---
 
+## 📖 Panduan Penggunaan Script
+
+- address-list.src : copy script line 1 kecuali pagar
+
+---
+
 ## 🧰 Kebutuhan Minimum
 
 - 🔧 MikroTik RouterOS versi 6.x atau 7.x  

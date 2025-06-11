@@ -7,7 +7,6 @@
 <p align="center"><i>Kumpulan skrip, konfigurasi, dan otomatisasi jaringan berbasis <b>MikroTik RouterOS</b> — untuk teknisi, RT/RW Net, dan calon ISP</i></p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=shfylqlby/mikrotik&label=👁️%20Profile%20views&color=0e75b6&style=flat" alt="Mikrotik Views" />
   <img src="https://img.shields.io/github/stars/shfylqlby/mikrotik?style=social" alt="GitHub Repo stars">
   <img src="https://img.shields.io/badge/MikroTik-Toolkit-blue?logo=mikrotik">
   <a href="https://qcnetwork.net" target="_blank">

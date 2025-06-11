@@ -1,4 +1,4 @@
-#:if ([:len [/file find name=speedtest-list.rsc]] > 0) do={/file remove speedtest-list.rsc }; /tool fetch url="https://raw.githubusercontent.com/shfylqlby/mikrotik/master/speedtest-list.rsc";/import speedtest-list.rsc;
+#:if ([:len [/file find name=speedtest-list.rsc]] > 0) do={/file remove speedtest-list.rsc }; /tool fetch url="https://raw.githubusercontent.com/shfylqlby/mikrotik/master/address-list/speedtest-list.rsc";/import speedtest-list.rsc;
 
 /system note
 set show-at-login=yes

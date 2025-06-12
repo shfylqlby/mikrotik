@@ -50,7 +50,7 @@ Repositori ini menyimpan berbagai alat bantu konfigurasi dan skrip MikroTik yang
 
 - 🔧 MikroTik RouterOS versi 6.x atau 7.x  
 - 🖥️ Akses via Winbox, WebFig, atau terminal CLI  
-- 🌐 Internet aktif (untuk fetch API/Telegram)  
+- 🌐 Internet aktif (untuk fetch API/Telegram/Raw Github)  
 - 🤖 Token Bot Telegram (untuk skrip notifikasi)  
 - 📚 Basic CLI MikroTik skill
 

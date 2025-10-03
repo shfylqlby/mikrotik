@@ -20,10 +20,10 @@ set note="\
 \n"
 
 /tool e-mail 
-set address=smtp.gmail.com port=587 from="xxxxxxxx@gmail.com" user="xxxxxxxx@gmail.com" password="xxxxxxxxxxxxxxxx" start-tls=yes
+set address=smtp.gmail.com port=587 from="shofiyulqalby@gmail.com" user="shofiyulqalby@gmail.com" password="mlrbeviuovufmqbl" start-tls=yes
 
 /system scheduler
-add name=backup interval=3d on-event="/system script run backup-mikrotik"
+add name=backup interval=7d on-event="/system script run backup-mikrotik"
 
 /system script add name=backup-mikrotik comment="Backup otomatis via email" source="\
 :local identity [/system identity get name];\
@@ -39,6 +39,6 @@ add name=backup interval=3d on-event="/system script run backup-mikrotik"
 :put \$filename;\
 /export file=\$filename;\
 :delay 15s;\
-/tool e-mail send to=\"xxxxxx@gmail.com\" subject=\"Backup Router \$identity\" body=\"File backup ini dikirim secara otomatis via email\" file=\"\$filename.rsc\" start-tls=yes;\
+/tool e-mail send to=\"jurganet888@gmail.com\" subject=\"Backup Router \$identity\" body=\"File backup ini dikirim secara otomatis via email\" file=\"\$filename.rsc\" start-tls=yes;\
 :delay 15s;\
 /file remove \"\$filename.rsc\";"
